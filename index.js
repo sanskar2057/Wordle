@@ -121,7 +121,7 @@ function revealWord(guess){
     const isWinner=state.secret===guess;
     const isGameOver=state.currentRow===5;
     setTimeout(()=>
-        {if(isWinner){
+        {if(isWinner){  
             alert('Congratulations!');
         }
         else if(isGameOver){
